@@ -4,128 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas da aula de dew</title>
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
     <h1>Tabelas</h1>
     <table border="1">
-        <tr>
-            <td>Dia</td>
-            <td>Tempo</td>
-            <td>Mínima</td>
-            <td>Máxima</td>
-        </tr>
-        <tr>
-            <td>Domingo</td>
-            <td>
-                <img src="../img/dia sol nuvens.png" alt="Sol com Nuvens">
-            </td>
-            <td>27°</td>
-            <td>32°</td>
-        </tr>
-        <tr>
-            <td>Segunda-feira</td>
-            <td>
-                <img src="../img/dia-ensolarado.png" alt="">
-            </td>
-            <td>27°</td>
-            <td>32°</td>
-        </tr>
-        <tr>
-            <td>Terça-feira</td>
-            <td>
-                <img src="../img/chuvoso.png" alt="">
-            </td>
-            <td>27°</td>
-            <td>32°</td>
-        </tr>
-        <tr>
-            <td>Quarta-feira</td>
-            <td>
-                <img src="../img/nublado.png" alt="">
-            </td>
-            <td>27°</td>
-            <td>32°</td>
-        </tr>
-        <tr>
-            <td>Quinta-feira</td>
-            <td>
-                <img src="../img/dia sol nuvens.png" alt="">
-            </td>
-            <td>27°</td>
-            <td>32°</td>
-        </tr>
-        <tr>
-            <td>Sexta-feira</td>
-            <td>
-                <img src="../img/dia-ensolarado.png" alt="">
-            </td>
-            <td>27°</td>
-            <td>32°</td>
-        </tr>
-        <tr>
-            <td>Sábado</td>
-            <td>
-                <img src="../img/chuvoso.png" alt="">
-            </td>
-            <td>27°</td>
-            <td>32°</td>
-        </tr>
-
+        <thead>
+            <tr>
+                <th>Dia</th>
+                <th>Tempo</th>
+                <th>Mínima</th>
+                <th>Máxima</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Domingo</td>
+                <td>
+                    <img src="../img/dia sol nuvens.png" alt="Sol com Nuvens">
+                </td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Segunda-feira</td>
+                <td>
+                    <img src="../img/dia-ensolarado.png" alt="">
+                </td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Terça-feira</td>
+                <td>
+                    <img src="../img/chuvoso.png" alt="">
+                </td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Quarta-feira</td>
+                <td>
+                    <img src="../img/nublado.png" alt="">
+                </td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Quinta-feira</td>
+                <td>
+                    <img src="../img/dia sol nuvens.png" alt="">
+                </td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Sexta-feira</td>
+                <td>
+                    <img src="../img/dia-ensolarado.png" alt="">
+                </td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Sábado</td>
+                <td>
+                    <img src="../img/chuvoso.png" alt="">
+                </td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+        </tbody>
     </table>
 
     <h1>Segunda tabela</h1>
     <table border="1">
-        <tr>
-            <th rowspan="2">País</th>
-            <th colspan="2">Saneamento básico</th>
-            <th colspan="3">Infantil (por mil)</th>
-        </tr>
-        <tr>
-            <th>Saneamento sanitário adequado</th>
-            <th>sanemaento de água</th>
-            <th colspan="3">anos de permanência das mães na escola</th>
-            
-        </tr>
-        <tr>
-            <th>I</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>II</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>III</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>IV</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>V</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
+        <thead>
+            <tr>
+                <th rowspan="3">País</th>
+                <th colspan="2">Saneamento básico</th>
+                <th colspan="3">Taxa de mortalidade infantil (por mil)</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Saneamento sanitário adequado</th>
+                <th rowspan="2">Saneamneto de água</th>
+                <th colspan="3">Anos de permanência das mães na escola</th>
+            </tr>
+            <tr> 
+                <th>Até 3</th>
+                <th>De 4 a 7</th>
+                <th>8 ou mais</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>I</th>
+                <td style="text-align: center;">33</td>
+                <td style="text-align: center;">47</td>
+                <td style="text-align: center;">45,1</td>
+                <td style="text-align: center;">29,6</td>
+                <td style="text-align: center;">21,4</td>
+            </tr>
+            <tr>
+                <th>II</th>
+                <td style="text-align: center;">36</td>
+                <td style="text-align: center;">65</td>
+                <td style="text-align: center;">70,3</td>
+                <td style="text-align: center;">41,2</td>
+                <td style="text-align: center;">28</td>
+            </tr>
+            <tr>
+                <th>III</th>
+                <td style="text-align: center;">81</td>
+                <td style="text-align: center;">88</td>
+                <td style="text-align: center;">34,8</td>
+                <td style="text-align: center;">27,4</td>
+                <td style="text-align: center;">17,7</td>
+            </tr>
+            <tr>
+                <th>IV</th>
+                <td style="text-align: center;">62</td>
+                <td style="text-align: center;">79</td>
+                <td style="text-align: center;">33,9</td>
+                <td style="text-align: center;">22,5</td>
+                <td style="text-align: center;">16,4</td>
+            </tr>
+            <tr>
+                <th>V</th>
+                <td style="text-align: center;">40</td>
+                <td style="text-align: center;">73</td>
+                <td style="text-align: center;">37,9</td>
+                <td style="text-align: center;">25,1</td>
+                <td style="text-align: center;">19,3</td>
+            </tr>
+        </tbody>
     </table>
     
 </body>
